@@ -9,7 +9,7 @@
 }
 
 body {
-	background-color: #202020;
+	background-color: #fff;
 	height: 100vh;
 }
 
@@ -22,7 +22,7 @@ h2 {
 }
 
 .wrapper {
-	max-width: 1200px;
+	max-width: 1107px;
 	height: 100%;
 	margin: 0 auto;
 	background-color: #fff;
@@ -71,8 +71,8 @@ h2 {
 
 .toggle {
 	position: fixed;
-	left: 210px;
-	transition:color 0.7s ease-in-out;
+	left: 200px;
+	transition: color 0.7s ease-in-out,left 0.7s ease-in-out;
 }
 
 
@@ -94,6 +94,7 @@ input {
 
 #thetoggler:checked + .wrapper .toggle label {
 	color: #333;
+	left: 25px;
 
 }
 
